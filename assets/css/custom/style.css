@@ -1,0 +1,399 @@
+/******************** Set background to Body ********************/
+html,
+body {
+    background-color: #F5F5F7;
+}
+
+
+/******************** Add font to all element ********************/
+* {
+    font-family: 'IranYekan';
+}
+
+
+/******************** Preloader style ********************/
+#preloader {
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    background: #fff !important;
+}
+
+.animation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/******************** Disable outline on every item in bootstrap ********************/
+a:focus,
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input:focus,
+[contenteditable].form-control:focus {
+    box-shadow: inset 0 0 0 0 #ddd !important;
+}
+
+
+/******************** Font weight custom added ********************/
+.text-thin {
+    font-weight: 100;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-regular {
+    font-weight: normal;
+}
+
+.text-medium {
+    font-weight: 500;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-extrabold {
+    font-weight: 800;
+}
+
+.text-black {
+    font-weight: 850;
+}
+
+.text-extrablack {
+    font-weight: 900;
+}
+
+
+/******************** Text size custom added ********************/
+.text-size-32 {
+    /* 32px */
+    font-size: 2rem;
+}
+
+.text-size-26 {
+    /* 26px */
+    font-size: 1.625rem;
+}
+
+.text-size-22 {
+    /* 22px */
+    font-size: 1.375rem;
+}
+
+.text-size-18 {
+    /* 18px */
+    font-size: 1.125rem;
+}
+
+.text-size-16 {
+    /* 16px */
+    font-size: 1rem;
+}
+
+.text-size-14 {
+    /* 14px */
+    font-size: 0.875rem;
+}
+
+.text-size-12 {
+    /* 12px */
+    font-size: 0.75rem;
+}
+
+.text-size-10 {
+    /* 10px */
+    font-size: 0.625rem;
+}
+
+.text-size-8 {
+    /* 8px */
+    font-size: 0.5rem;
+}
+
+
+/******************** animation for dropdown ********************/
+.dropdown .dropdown-menu {
+    border: solid 1px #ededed;
+    border-radius: 5px;
+}
+
+.dropdown-item:active {
+    background-color: #eeeeee;
+    color: #bbb;
+}
+
+
+/******************** Change navbar link colors ********************/
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+
+/******************** Start work button on header with glowing animation ********************/
+.start-button {
+    -webkit-animation: glowing 1700ms infinite;
+    -moz-animation: glowing 1700ms infinite;
+    -o-animation: glowing 1700ms infinite;
+    animation: glowing 1700ms infinite;
+}
+
+
+/******************** Glowing animation keyframes ********************/
+@-webkit-keyframes glowing {
+    0% {
+        box-shadow: 0 0 3px #1D2025;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        box-shadow: 0 0 20px #1D2025;
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    100% {
+        box-shadow: 0 0 3px #1D2025;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes glowing {
+    0% {
+        box-shadow: 0 0 3px #1D2025;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        box-shadow: 0 0 20px #1D2025;
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    100% {
+        box-shadow: 0 0 3px #1D2025;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-o-keyframes glowing {
+    0% {
+        box-shadow: 0 0 3px #1D2025;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        box-shadow: 0 0 20px #1D2025;
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    100% {
+        box-shadow: 0 0 3px #1D2025;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 3px #1D2025;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        box-shadow: 0 0 20px #1D2025;
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    100% {
+        box-shadow: 0 0 3px #1D2025;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+/******************** Menu icon animated ********************/
+#Menu-icon {
+    width: 33px;
+    height: 24px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+#Menu-icon span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #646464;
+    border-radius: 50rem;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+#Menu-icon span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+#Menu-icon span:nth-child(2) {
+    top: 10px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+#Menu-icon span:nth-child(3) {
+    top: 20px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+#Menu-icon.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0px;
+    left: 10px;
+}
+
+#Menu-icon.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+
+#Menu-icon.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 23px;
+    left: 10px;
+}
+
+
+/**************************************** All color in this site ****************************************/
+/******************** Custom background color ********************/
+.bg-header {
+    background-color: #313132 !important;
+}
+
+.bg-gray {
+    background-color: #545454 !important;
+}
+
+.bg-gray-2 {
+    background-color: #D2D2D7 !important;
+}
+
+.bg-blue {
+    background: rgb(99, 194, 245);
+    background: -moz-linear-gradient(135deg, rgba(99, 194, 245, 1) 0%, rgba(38, 158, 222, 1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(99, 194, 245, 1) 0%, rgba(38, 158, 222, 1) 100%);
+    background: linear-gradient(135deg, rgba(99, 194, 245, 1) 0%, rgba(38, 158, 222, 1) 100%);
+}
+
+.bg-light {
+    background-color: #FBFBFB !important;
+}
+
+
+/******************** Custom front color ********************/
+.text-ld {
+    color: #fff !important;
+}
+
+.text-blue {
+    color: #63C2F5 !important;
+}
+
+.text-dark {
+    color: #2F3640 !important;
+}

@@ -1,0 +1,61 @@
+/******************** Change footer nav link colors ********************/
+.footer-nav .nav-item {
+    border-left: unset;
+    border-right: solid 2px transparent;
+}
+
+.footer-nav .nav-item:hover {
+    border-left: unset;
+    border-right: solid 2px #63C2F5;
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.footer-nav .nav-item:hover .nav-link {
+    transform: translateX(-15px);
+}
+
+/**************************************** Custom background for all swiper sliders ****************************************/
+.swiper-container {
+    direction: rtl;
+}
+
+
+/**************************************** Custom Arrows for all swiper sliders ****************************************/
+.swiper-container .swiper-button-next {
+    right: unset;
+    left: 0;
+}
+
+.swiper-container .swiper-button-prev {
+    left: unset;
+    right: 0;
+}
+
+.swiper-container .swiper-button-next::after {
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    content: '\f053';
+}
+
+.swiper-container .swiper-button-prev::after {
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    content: '\f054';
+}
+
+
+/**************************************** Rotate some fontAwesome iconsk ****************************************/
+.fa-angle-right {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}

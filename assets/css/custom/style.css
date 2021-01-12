@@ -18,6 +18,12 @@ a {
 }
 
 
+/******************** Direction ltr for all phone number ********************/
+.phone-number{
+    direction: ltr;
+}
+
+
 /******************** Cutsome bootstrap4 style ********************/
 @media (min-width: 576px) {
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="fa">
 
 <head>
     <!-- ==================== Basic Page Needs ==================== -->
@@ -27,7 +27,7 @@
     <meta property="business:contact_data:email" content="email[at]example.com">
     <meta name="geo.placename" content="شرکت صنعتی آریامین">
     <meta name="revisit-after" content="7 days">
-    <meta http-equiv="content-language" content="en"> <!-- This meta tag in EN or FA can be different -->
+    <meta http-equiv="content-language" content="fa"> <!-- This meta tag in EN or FA can be different -->
     <meta name="description" content="توضیحاتی در مورد سایت و شرکت مورد نظر و این صفحه"> <!-- Can be changed -->
 
     <!-- ==================== The twitter cart Meta ==================== -->
@@ -49,32 +49,34 @@
     <meta property="og:title" content="سر صفحه مربوط به هر صفحه"> <!-- Can be changed -->
     <meta property="og:type" content="کار هایی که این شرکت انجام میدهد"> <!-- Can be changed -->
     <meta property="og:description" content="توضیحاتی در مورد سایت و شرکت مورد نظر و این صفحه"> <!-- Can be changed -->
-    <meta property="og:image" content="./assets/img/logo/logo.png"> <!-- Can be changed -->
-    <meta property="og:image:secure_url" content="./assets/img/logo/logo.png"> <!-- Can be changed -->
+    <meta property="og:image" content="../assets/img/logo/logo.png"> <!-- Can be changed -->
+    <meta property="og:image:secure_url" content="../assets/img/logo/logo.png"> <!-- Can be changed -->
     <meta property="og:image:alt" content="یک توضیح کوتاه در مورد عملکرد سایت"> <!-- Can be changed -->
 
     <!-- ==================== Titles ==================== -->
-    <title>AriaMin Home</title> <!-- Can be changed -->
+    <title>آریامین خانه</title> <!-- Can be changed -->
 
     <!-- ==================== Favicons ==================== -->
-    <link rel="shortcut icon" href="./assets/img/logo/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/img/logo/logo.png" type="image/x-icon">
 
     <!-- ==================== Style CSS ==================== -->
-    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css"> <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./assets/css/swiper/swiper-bundle.min.css"> <!-- Swiper CSS -->
-    <link rel="stylesheet" href="./assets/css/aos/aos.css"> <!-- AOS js -->
-    <link rel="stylesheet" href="./assets/css/custom/fonts.css"> <!-- Custom Font CSS -->
-    <link rel="stylesheet" href="./assets/css/custom/style.css"> <!-- Custom style CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap.min.css"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap-rtl.min.css"> <!-- Bootstrap rtl CSS -->
+    <link rel="stylesheet" href="../assets/css/swiper/swiper-bundle.min.css"> <!-- Swiper CSS -->
+    <link rel="stylesheet" href="../assets/css/aos/aos.css"> <!-- AOS js -->
+    <link rel="stylesheet" href="../assets/css/custom/fonts.css"> <!-- Custom Font CSS -->
+    <link rel="stylesheet" href="../assets/css/custom/style.css"> <!-- Custom style CSS -->
+    <link rel="stylesheet" href="../assets/css/custom/style-rtl.css"> <!-- Custom style rtl CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"> <!-- FontAwesome CSS -->
 
 </head>
 
-<body onload="loader()">
+<body onload="loader()" dir="rtl">
 
     <!-- ==================== Start Preloader Page ==================== -->
     <div id="preloader">
         <div class="animation">
-            <img src="./assets/img/svg/loader.svg" alt="loader image">
+            <img src="../assets/img/svg/loader.svg" alt="loader image">
         </div>
     </div>
     <!-- ==================== End Preloader Page ==================== -->
@@ -84,7 +86,7 @@
         <nav class="navbar navbar-expand-md container py-0">
 
             <!-- Logo -->
-            <a class="navbar-brand" href="#"><img class="img-fluid" width="40" src="./assets/img/logo/logo.png" alt="logo"></a>
+            <a class="navbar-brand" href="#"><img class="img-fluid" width="40" src="../assets/img/logo/logo.png" alt="logo"></a>
 
             <!-- Start Icon bars for menu button -->
             <a class="navbar-toggler border-0 p-0" type="button" data-toggle="collapse" data-target="#navMenu"
@@ -106,21 +108,21 @@
 
                 <!-- Start Main link -->
                 <div class="navbar-nav justify-content-md-center mx-md-auto">
-                    <a class="nav-link py-md-3" href="#">Home</a>
-                    <a class="nav-link py-md-3" href="#">About Us</a>
-                    <a class="nav-link py-md-3" href="#">Projects</a>
-                    <a class="nav-link py-md-3" href="#">Companies</a>
+                    <a class="nav-link py-md-3" href="#">خانه</a>
+                    <a class="nav-link py-md-3" href="#">درباره ما</a>
+                    <a class="nav-link py-md-3" href="#">پروژه ها</a>
+                    <a class="nav-link py-md-3" href="#">شرکت ها</a>
                     <div class="dropdown">
-                        <a class="dropdown-toggle nav-link py-md-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <a class="dropdown-toggle nav-link py-md-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">بلاگ</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">All</a>
-                            <a class="dropdown-item" href="#">Newest</a>
-                            <a class="dropdown-item" href="#">Most visited</a>
+                            <a class="dropdown-item" href="#">همه</a>
+                            <a class="dropdown-item" href="#">جدیدترین ها</a>
+                            <a class="dropdown-item" href="#">پربازدید ترین ها</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Latest news</a>
+                            <a class="dropdown-item" href="#">آخرین اخبار</a>
                         </div>
                     </div>
-                    <a class="nav-link py-md-3" href="#">Contact Us</a>
+                    <a class="nav-link py-md-3" href="#">ارتباط با ما</a>
                 </div>
                 <!-- End Main link -->
 
@@ -128,7 +130,7 @@
                 <div class="d-md-none" style="width: 100%; height: 1px; background-color: #555555; margin-top: 5px; margin-bottom: 5px;"></div>
 
                 <!-- Animated button for start working with us -->
-                <a class="btn bg-gray text-ld my-2 start-button d-block" href="#">Start Work</a>
+                <a class="btn bg-gray text-ld my-2 start-button d-block" href="#">درخواست سفارش</a>
             </div>
             <!-- End header and mobile menu content  -->
         </nav>
@@ -143,10 +145,10 @@
             <div class="swiper-container top-swiper">
                 <!-- Add Images -->
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><a href="#"><img class="img-fluid" src="./assets/img/covers/imageOne.png" alt="image One"></a></div>
-                    <div class="swiper-slide"><a href="#"><img class="img-fluid" src="./assets/img/covers/imageOne.png" alt="image One"></a></div>
-                    <div class="swiper-slide"><a href="#"><img class="img-fluid" src="./assets/img/covers/imageOne.png" alt="image One"></a></div>
-                    <div class="swiper-slide"><a href="#"><img class="img-fluid" src="./assets/img/covers/imageOne.png" alt="image One"></a></div>
+                    <div class="swiper-slide"><a href="#"><img class="img-fluid" src="../assets/img/covers/imageOne.png" alt="image One"></a></div>
+                    <div class="swiper-slide"><a href="#"><img class="img-fluid" src="../assets/img/covers/imageOne.png" alt="image One"></a></div>
+                    <div class="swiper-slide"><a href="#"><img class="img-fluid" src="../assets/img/covers/imageOne.png" alt="image One"></a></div>
+                    <div class="swiper-slide"><a href="#"><img class="img-fluid" src="../assets/img/covers/imageOne.png" alt="image One"></a></div>
                 </div>
 
                 <!-- Add Pagination -->
@@ -162,8 +164,8 @@
 
         <!-- Start Title and description -->
         <section class="container text-center mt-5">
-            <h1 class="text-size-70 text-extrablack text-gradient-blue d-inline-block">AriaMin</h1>
-            <h3 class="text-size-18 text-dark text-regular mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt excepturi earum quam sit neque nemo recusandae voluptas quis doloremque dolore!</h3>
+            <h1 class="text-size-70 text-extrablack text-gradient-blue d-inline-block">آریامین</h1>
+            <h3 class="text-size-18 text-dark text-regular mt-3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</h3>
         </section>
         <!-- End Title and description -->
 
@@ -172,26 +174,26 @@
             <div class="row">
                 <div class="col-md-6 mb-4">
                     <div class="card card-blue">
-                        <h2 class="text-size-22 text-bold mb-4">fiberglass</h2>
-                        <p class="text-size-16 text-regular m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, exercitationem fuga! Quos, fuga voluptatum!</p>
+                        <h2 class="text-size-22 text-bold mb-4">فایبرگلاس</h2>
+                        <p class="text-size-16 text-regular m-0">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
                     <div class="card card-blue">
-                        <h2 class="text-size-22 text-bold mb-4">Industrial facilities</h2>
-                        <p class="text-size-16 text-regular m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, exercitationem fuga! Quos, fuga voluptatum!</p>
+                        <h2 class="text-size-22 text-bold mb-4">تعسیسات صنعتی</h2>
+                        <p class="text-size-16 text-regular m-0">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
                     <div class="card card-blue">
-                        <h2 class="text-size-22 text-bold mb-4">Garden</h2>
-                        <p class="text-size-16 text-regular m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, exercitationem fuga! Quos, fuga voluptatum!</p>
+                        <h2 class="text-size-22 text-bold mb-4">باغ و باغچه</h2>
+                        <p class="text-size-16 text-regular m-0">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
                     <div class="card card-blue">
-                        <h2 class="text-size-22 text-bold mb-4">Industrial pool</h2>
-                        <p class="text-size-16 text-regular m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, exercitationem fuga! Quos, fuga voluptatum!</p>
+                        <h2 class="text-size-22 text-bold mb-4">استخر صنعتی</h2>
+                        <p class="text-size-16 text-regular m-0">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
                     </div>
                 </div>
             </div>
@@ -201,7 +203,7 @@
         <!-- Start Our certificate -->
         <section class="bg-light py-2">
             <div class="container text-center">
-                <span class="text-size-16 text-regular text-dark">You can see all our licenses and documents here. <a class="text-blue" href="#">Know more</a></span>
+                <span class="text-size-16 text-regular text-dark">کلیه مجوزها و اسناد ما را می توانید در اینجا مشاهده کنید. <a class="text-blue" href="#">بیشتر بدانید</a></span>
             </div>
         </section>
         <!-- End Our certificate -->
@@ -216,10 +218,10 @@
                         <div class="swiper-container">
                             <!-- Add Images -->
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><a href="#"><img class="img-fluid" src="./assets/img/covers/imagetwo.png" alt="image Two"></a></div>
-                                <div class="swiper-slide"><a href="#"><img class="img-fluid" src="./assets/img/covers/imagetwo.png" alt="image Two"></a></div>
-                                <div class="swiper-slide"><a href="#"><img class="img-fluid" src="./assets/img/covers/imagetwo.png" alt="image Two"></a></div>
-                                <div class="swiper-slide"><a href="#"><img class="img-fluid" src="./assets/img/covers/imagetwo.png" alt="image Two"></a></div>
+                                <div class="swiper-slide"><a href="#"><img class="img-fluid" src="../assets/img/covers/imagetwo.png" alt="image Two"></a></div>
+                                <div class="swiper-slide"><a href="#"><img class="img-fluid" src="../assets/img/covers/imagetwo.png" alt="image Two"></a></div>
+                                <div class="swiper-slide"><a href="#"><img class="img-fluid" src="../assets/img/covers/imagetwo.png" alt="image Two"></a></div>
+                                <div class="swiper-slide"><a href="#"><img class="img-fluid" src="../assets/img/covers/imagetwo.png" alt="image Two"></a></div>
                             </div>
             
                             <!-- Add Pagination -->
@@ -237,13 +239,13 @@
                     <div class="col-xl-7 col-lg-8 col-md-6">
 
                         <!-- Title for About us -->
-                        <h5 class="text-size-16 mb-md-5 mb-4 text-blue mt-5 mt-md-0">About Us</h5>
+                        <h5 class="text-size-16 mb-md-5 mb-4 text-blue mt-5 mt-md-0">درباره ما</h5>
                         
                         <!-- Main description -->
-                        <h6 class="text-size-26 text-dark text-extrabold mb-md-5 mb-4">Be professional with us</h6>
+                        <h6 class="text-size-26 text-dark text-extrabold mb-md-5 mb-4">با ما حرفه ای عمل کنید</h6>
 
                         <!-- Description for about us -->
-                        <p class="text-size-16 text-dark text-regular mb-md-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempore maxime quisquam. Error corporis at obcaecati quis, asperiores dolore. Ipsum repudiandae mollitia quas eligendi veritatis repellendus fugit sit, possimus accusamus!</p>
+                        <p class="text-size-16 text-dark text-regular mb-md-5 mb-4"> مداد رنگی ها مشغول بودند به جز مداد سفید، هیچکس به او کار نمیداد، همه میگفتند : تو به هیچ دردی نمیخوری، یک شب که مداد رنگی ها تو سیاهی شب گم شده بودند، مداد سفید تا صبح ماه کشید مهتاب کشید و انقدر ستاره کشید که کوچک و کوچکتر شد صبح توی جعبه مداد رنگی جای خالی او با هیچ رنگی  پر نشد، به یاد هم باشیم شاید فردا ما هم در کنار هم نباشیم…</p>
 
                         <!-- Light line -->
                         <div style="width: 100%; height: 1px; background-color: #EEEEEE;"></div>
@@ -255,10 +257,10 @@
                                 <div class="d-none d-md-block" style="width: 40%; height: 1px; background-color: #63C2F5; margin-top: -1px;"></div>
 
                                 <!-- Title -->
-                                <p class="text-size-18 text-medium text-blue mt-4">Our Awards</p>
+                                <p class="text-size-18 text-medium text-blue mt-4">جوایز</p>
 
                                 <!-- Description -->
-                                <p class="text-size-26 text-extrablack text-blue mt-md-4 phone-number">+800</p>
+                                <p class="text-size-26 text-extrablack text-blue mt-md-4 phone-number">+۸۰۰</p>
 
                             </div>
                             <div class="col-md-4">
@@ -267,10 +269,10 @@
                                 <div class="d-none d-md-block" style="width: 40%; height: 1px; background-color: #63C2F5; margin-top: -1px;"></div>
 
                                 <!-- Title -->
-                                <p class="text-size-18 text-medium text-blue mt-4">Satisfied customers</p>
+                                <p class="text-size-18 text-medium text-blue mt-4">مشتریان راضی</p>
 
                                 <!-- Description -->
-                                <p class="text-size-26 text-extrablack text-blue mt-md-4 phone-number">+1200</p>
+                                <p class="text-size-26 text-extrablack text-blue mt-md-4 phone-number">+۱۲۰۰</p>
 
                             </div>
                             <div class="col-md-4">
@@ -279,10 +281,10 @@
                                 <div class="d-none d-md-block" style="width: 40%; height: 1px; background-color: #63C2F5; margin-top: -1px;"></div>
 
                                 <!-- Title -->
-                                <p class="text-size-18 text-medium text-blue mt-4">Years of experience</p>
+                                <p class="text-size-18 text-medium text-blue mt-4">سال های تجربه</p>
 
                                 <!-- Description -->
-                                <p class="text-size-26 text-extrablack text-blue mt-md-4 phone-number">+12</p>
+                                <p class="text-size-26 text-extrablack text-blue mt-md-4 phone-number">+۱۲</p>
                                 
                             </div>
                         </div>
@@ -297,8 +299,8 @@
         <!-- Start projcts -->
         <section class="container bg-white my-5 py-5 rounded">
             <div class="text-center">
-                <h5 class="text-size-26 text-extrabold text-dark">What we have done so far.</h5>
-                <a class="text-size-18 text-medium text-blue" href="#">All Works <i class="fa fa-angle-right"></i></a>
+                <h5 class="text-size-26 text-extrabold text-dark">کار هایی که تا به حال انجام داده ایم.</h5>
+                <a class="text-size-18 text-medium text-blue" href="#">تمام کار ها <i class="fa fa-angle-right"></i></a>
             </div>
             <div class="row justify-content-between mt-5 px-lg-5 px-4">
 
@@ -306,18 +308,18 @@
                 <div class="col-lg-4 col-sm-6 mb-4 text-center">
 
                     <!-- Project main image -->
-                    <img class="img-fluid w-100 rounded" src="./assets/img/covers/imageThree.png" alt="imageThree">
+                    <img class="img-fluid w-100 rounded" src="../assets/img/covers/imageThree.png" alt="imageThree">
 
                     <!-- Project category -->
-                    <p class="text-size-18 text-medium text-gray m-0 mt-3">Garden</p>
+                    <p class="text-size-18 text-medium text-gray m-0 mt-3">باغ و باغچه</p>
 
                     <!-- Project name -->
-                    <p class="text-size-22 text-bold text-dark mt-2">Takhti Project</p>
+                    <p class="text-size-22 text-bold text-dark mt-2">پروژه تختی</p>
 
                     <hr class="bg-light mx-5">
 
                     <!-- See project link -->
-                    <a class="btn btn-outline-blue" href="#">Details</a>
+                    <a class="btn btn-outline-blue" href="#">جزئیات</a>
 
                 </div>
                 <!-- End Project Details -->
@@ -326,18 +328,18 @@
                 <div class="col-lg-4 col-sm-6 mb-4 text-center">
 
                     <!-- Project main image -->
-                    <img class="img-fluid w-100 rounded" src="./assets/img/covers/imageThree.png" alt="imageThree">
+                    <img class="img-fluid w-100 rounded" src="../assets/img/covers/imageThree.png" alt="imageThree">
 
                     <!-- Project category -->
-                    <p class="text-size-18 text-medium text-gray m-0 mt-3">Garden</p>
+                    <p class="text-size-18 text-medium text-gray m-0 mt-3">باغ و باغچه</p>
 
                     <!-- Project name -->
-                    <p class="text-size-22 text-bold text-dark mt-2">Takhti Project</p>
+                    <p class="text-size-22 text-bold text-dark mt-2">پروژه تختی</p>
 
                     <hr class="bg-light mx-5">
 
                     <!-- See project link -->
-                    <a class="btn btn-outline-blue" href="#">Details</a>
+                    <a class="btn btn-outline-blue" href="#">جزئیات</a>
 
                 </div>
                 <!-- End Project Details -->
@@ -346,18 +348,18 @@
                 <div class="col-lg-4 col-sm-6 mb-4 text-center">
 
                     <!-- Project main image -->
-                    <img class="img-fluid w-100 rounded" src="./assets/img/covers/imageThree.png" alt="imageThree">
+                    <img class="img-fluid w-100 rounded" src="../assets/img/covers/imageThree.png" alt="imageThree">
 
                     <!-- Project category -->
-                    <p class="text-size-18 text-medium text-gray m-0 mt-3">Garden</p>
+                    <p class="text-size-18 text-medium text-gray m-0 mt-3">باغ و باغچه</p>
 
                     <!-- Project name -->
-                    <p class="text-size-22 text-bold text-dark mt-2">Takhti Project</p>
+                    <p class="text-size-22 text-bold text-dark mt-2">پروژه تختی</p>
 
                     <hr class="bg-light mx-5">
 
                     <!-- See project link -->
-                    <a class="btn btn-outline-blue" href="#">Details</a>
+                    <a class="btn btn-outline-blue" href="#">جزئیات</a>
 
                 </div>
                 <!-- End Project Details -->
@@ -371,55 +373,55 @@
 
                 <!-- Start Customer logo -->
                 <div class="card card-customer">
-                    <img class="img-fluid" src="./assets/img/customersLogo/one.png" alt="one">
+                    <img class="img-fluid" src="../assets/img/customersLogo/one.png" alt="one">
                 </div>
                 <!-- End Customer logo -->
 
                 <!-- Start Customer logo -->
                 <div class="card card-customer">
-                    <img class="img-fluid" src="./assets/img/customersLogo/two.png" alt="two">
+                    <img class="img-fluid" src="../assets/img/customersLogo/two.png" alt="two">
                 </div>
                 <!-- End Customer logo -->
 
                 <!-- Start Customer logo -->
                 <div class="card card-customer">
-                    <img class="img-fluid" src="./assets/img/customersLogo/three.png" alt="three">
+                    <img class="img-fluid" src="../assets/img/customersLogo/three.png" alt="three">
                 </div>
                 <!-- End Customer logo -->
 
                 <!-- Start Customer logo -->
                 <div class="card card-customer">
-                    <img class="img-fluid" src="./assets/img/customersLogo/four.png" alt="four">
+                    <img class="img-fluid" src="../assets/img/customersLogo/four.png" alt="four">
                 </div>
                 <!-- End Customer logo -->
 
                 <!-- Start Customer logo -->
                 <div class="card card-customer">
-                    <img class="img-fluid" src="./assets/img/customersLogo/five.png" alt="five">
+                    <img class="img-fluid" src="../assets/img/customersLogo/five.png" alt="five">
                 </div>
                 <!-- End Customer logo -->
 
                 <!-- Start Customer logo -->
                 <div class="card card-customer">
-                    <img class="img-fluid" src="./assets/img/customersLogo/six.png" alt="six">
+                    <img class="img-fluid" src="../assets/img/customersLogo/six.png" alt="six">
                 </div>
                 <!-- End Customer logo -->
 
                 <!-- Start Customer logo -->
                 <div class="card card-customer">
-                    <img class="img-fluid" src="./assets/img/customersLogo/two.png" alt="six">
+                    <img class="img-fluid" src="../assets/img/customersLogo/two.png" alt="six">
                 </div>
                 <!-- End Customer logo -->
 
                 <!-- Start Customer logo -->
                 <div class="card card-customer">
-                    <img class="img-fluid" src="./assets/img/customersLogo/three.png" alt="six">
+                    <img class="img-fluid" src="../assets/img/customersLogo/three.png" alt="six">
                 </div>
                 <!-- End Customer logo -->
 
                 <!-- Start Customer logo -->
                 <div class="card card-customer">
-                    <img class="img-fluid" src="./assets/img/customersLogo/one.png" alt="six">
+                    <img class="img-fluid" src="../assets/img/customersLogo/one.png" alt="six">
                 </div>
                 <!-- End Customer logo -->
 
@@ -435,57 +437,57 @@
         <div class="container">
             <!-- Start ** Start work ** section -->
             <div class="Start-work-footer bg-blue text-center py-5">
-                <p class="text-size-40 text-extrablack text-white m-0">Start Work</p>
-                <a class="btn btn-outline-white text-size-18 text-blod mt-4" href="#">Contact Us</a>
+                <p class="text-size-40 text-extrablack text-white m-0">شروع به همکاری</p>
+                <a class="btn btn-outline-white text-size-18 text-blod mt-4" href="#">ارتباط با ما</a>
             </div>
             <!-- End ** Start work ** section -->
 
             <!-- Start Footer Nav links -->
             <div class="footer-nav row my-4">
                 <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                    <h4 class="text-size-22 text-bold text-dark">quick access</h4>
+                    <h4 class="text-size-22 text-bold text-dark">دسترسی سریع</h4>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="#">پروژه ها</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#">درباره ما</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#">ارتباط با ما</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                    <h4 class="text-size-22 text-bold text-dark">Support</h4>
+                    <h4 class="text-size-22 text-bold text-dark">پشتیبانی</h4>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#">قیمت ها</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Ticket</a>
+                            <a class="nav-link" href="#">تیکت</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">FAQ</a>
+                            <a class="nav-link" href="#">سوالات متداول</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                    <h4 class="text-size-22 text-bold text-dark">Our services</h4>
+                    <h4 class="text-size-22 text-bold text-dark">خدمات ما</h4>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pool</a>
+                            <a class="nav-link" href="#">استخر صنعتی</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Garden</a>
+                            <a class="nav-link" href="#">باغ و باغچه</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Industrial facilities</a>
+                            <a class="nav-link" href="#">تاسیسات صنعتی</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                    <h4 class="text-size-22 text-bold text-dark">Communication Ways</h4>
+                    <h4 class="text-size-22 text-bold text-dark">پل های ارتباطی</h4>
                     <ul class="nav flex-column">
                         <li class="nav-item">
                             <a class="nav-link" href="mailto:email@example.com">email@example.com</a>
@@ -505,7 +507,7 @@
 
             <!-- Start footer bottom -->
             <div class="footer-bottom">
-                <p class="text-center">This site has the copyright and all rights reserved for this site.</p>
+                <p class="text-center">تمامی حقوق برای این سایت محفوظ می باشد.</p>
             </div>
             <!-- End footer bottom -->
 
@@ -522,12 +524,12 @@
     <!-- ==================== End Scroll to top ==================== -->
 
     <!-- ==================== All The JS Files ==================== --> 
-    <script src="./assets/js/jquery/jquery-3.5.1.min.js"></script> <!-- jQuery js -->
-    <script src="./assets/js/bootstrap/bootstrap.bundle.min.js"></script> <!-- Bootstap js -->
-    <script src="./assets/js/swiper/swiper-bundle.min.js"></script> <!-- Swiper js -->
-    <script src="./assets/js/aos/aos.js"></script> <!-- AOS js -->
-    <script src="./assets/js/custom/script.js"></script> <!-- Custom script js -->
-    <script src="./assets/js/custom/customSwiper.js"></script> <!-- Custom Swiper slides js -->
+    <script src="../assets/js/jquery/jquery-3.5.1.min.js"></script> <!-- jQuery js -->
+    <script src="../assets/js/bootstrap/bootstrap.bundle.min.js"></script> <!-- Bootstap js -->
+    <script src="../assets/js/swiper/swiper-bundle.min.js"></script> <!-- Swiper js -->
+    <script src="../assets/js/aos/aos.js"></script> <!-- AOS js -->
+    <script src="../assets/js/custom/script.js"></script> <!-- Custom script js -->
+    <script src="../assets/js/custom/customSwiper.js"></script> <!-- Custom Swiper slides js -->
 </body>
 
 </html>

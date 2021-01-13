@@ -19,7 +19,7 @@ a {
 
 
 /******************** Direction ltr for all phone number ********************/
-.phone-number{
+.phone-number {
     direction: ltr;
 }
 
@@ -856,4 +856,73 @@ a.text-blue:hover {
 .btn-outline-white:active {
     background-color: #eee;
     color: #63C2F5;
+}
+
+
+/******************** This section for all html prperty used in blog ********************/
+.for-editor * {
+    color: #454546;
+}
+
+.for-editor img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.for-editor a {
+    display: inline-block;
+    color: #63C2F5;
+    background-color: #ebebeb;
+    padding: 10px 25px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.for-editor a:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.for-editor b,
+.for-editor strong {
+    font-weight: 850;
+}
+
+.for-editor blockquote {
+    font-size: 1.2em;
+    margin: 50px auto;
+    font-style: italic;
+    color: #555555;
+    padding: 1.2em 20px 1.2em 75px;
+    border-left: 8px solid #85d4ff;
+    line-height: 1.6;
+    position: relative;
+    background: #eee;
+}
+
+.for-editor blockquote::before {
+    font-family: Arial;
+    content: "\201C";
+    color: #85d4ff;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+.for-editor blockquote::after {
+    content: '';
+}
+
+.for-editor blockquote span {
+    display: block;
+    color: #333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 1em;
 }

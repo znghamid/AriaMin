@@ -48,12 +48,31 @@ a {
     border-radius: 5px !important;
 }
 
+input,
+textarea {
+    border: solid 1px #eee !important;
+    border-radius: 5px !important;
+}
+
+input:focus,
+textarea:focus {
+    border: solid 1px #85d4ff !important;
+}
+
+button {
+    border: solid 2px transparent;
+}
+
+button:focus {
+    box-shadow: 0 10px 20px rgba(38, 158, 222, .3) !important;
+    color: #333333;
+}
+
 
 /******************** Cutsome placeholder ********************/
 ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #D2D2D7 !important;
-    opacity: 1 !important;
     /* Firefox */
 }
 

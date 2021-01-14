@@ -878,6 +878,31 @@ a.text-blue:hover {
 }
 
 
+/******************** custom tag button ********************/
+.btn-tag {
+    background: #eee;
+    padding: 5px 10px;
+    color: #A6A6A6;
+    border: solid 1px #eee;
+    border-radius: 5px !important;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-tag:hover {
+    background: #fff;
+    color: #bbb;
+}
+
+.btn-tag:active {
+    background-color: #eee;
+    color: #646464;
+}
+
+
 /******************** This section for all html prperty used in blog ********************/
 .for-editor * {
     color: #454546;
@@ -944,4 +969,114 @@ a.text-blue:hover {
     font-style: normal;
     font-weight: bold;
     margin-top: 1em;
+}
+
+
+/******************** This section for all html prperty used in blog ********************/
+.search-box input {
+    border: solid 1px #fff !important;
+    border-radius: 5px 0px 0px 5px !important;
+}
+
+.search-box input:focus {
+    border: solid 1px #85d4ff !important;
+}
+
+.search-box button {
+    color: #A6A6A6;
+}
+
+.search-box button:hover {
+    color: #63C2F5;
+    box-shadow: none !important;
+    border: solid 1px #85d4ff;
+}
+
+.search-box button:focus {
+    color: #63C2F5;
+    box-shadow: none !important;
+    border: solid 1px #85d4ff;
+}
+
+
+/******************** This section for sidebar ********************/
+.sidebar-section .card {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+/******************** This section for blog card ********************/
+.card-blog {
+    padding: 0px;
+}
+
+.card-blog .img-wrapper {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+.card-blog .img-wrapper img {
+    width: 100% !important;
+}
+
+.card-blog img {
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.card-blog-content {
+    padding: 10px 15px;
+}
+
+.card-blog:hover {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-blog:hover .img-wrapper img {
+    transform: scale(1.15);
+}
+
+
+/******************** This section for pagination ********************/
+.nav-pagination {
+    overflow: scroll;
+}
+
+.nav-pagination::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-pagination {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.nav-pagination .pagination li a {
+    border: none;
+    color: #333333;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 8px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.nav-pagination .pagination li.active a {
+    background-color: #bbb;
+}
+
+.nav-pagination .pagination li.disabled a {
+    opacity: .7;
 }

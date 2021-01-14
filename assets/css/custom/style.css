@@ -853,6 +853,39 @@ a.text-blue:hover {
 }
 
 
+/******************** Custom outline red button ********************/
+.btn-outline-red {
+    background: transparent;
+    padding: 12px 35px;
+    color: #f55959;
+    border: solid 1px #f55959;
+    border-radius: 5px !important;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-outline-red:hover {
+    background-color: #f55959;
+    box-shadow: 0 3px 6px rgba(245, 89, 89, .3);
+    color: #fff;
+}
+
+.btn-outline-red:active {
+    background-color: #ff4242;
+    box-shadow: 0 10px 20px rgba(245, 89, 89, .5) !important;
+    color: #fff;
+}
+
+.btn-outline-red:focus {
+    background-color: #ff4242;
+    box-shadow: 0 10px 20px rgba(245, 89, 89, .5) !important;
+    color: #fff;
+}
+
+
 /******************** Custom outline white button ********************/
 .btn-outline-white {
     background: transparent;
@@ -1079,4 +1112,20 @@ a.text-blue:hover {
 
 .nav-pagination .pagination li.disabled a {
     opacity: .7;
+}
+
+
+/******************** This section for writer in single blog page ********************/
+.blog-writer-section {
+    margin-left: auto;
+}
+
+
+/******************** This section for Comments style ********************/
+.comment-title {
+    margin-right: auto;
+}
+
+.comment-level {
+    margin-left: 20px;
 }

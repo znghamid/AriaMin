@@ -79,3 +79,22 @@
 .search-box input {
     border-radius: 0px 5px 5px 0px !important;
 }
+
+
+/******************** This section for writer in single blog page ********************/
+.blog-writer-section {
+    margin-left: unset;
+    margin-right: auto;
+}
+
+
+/******************** This section for Comments style ********************/
+.comment-title {
+    margin-right: unset;
+    margin-left: auto;
+}
+
+.comment-level {
+    margin-left: unset;
+    margin-right: 20px;
+}

@@ -728,10 +728,6 @@ input:focus,
     background-color: #313132;
 }
 
-.bg-black {
-    background-color: #000000;
-}
-
 @supports (-webkit-backdrop-filter: none) or (-moz-backdrop-filter: none) or (-ms-backdrop-filter: none) or (-o-backdrop-filter: none) or (backdrop-filter: none) {
     .bg-header {
         -webkit-backdrop-filter: blur(10px);
@@ -741,6 +737,14 @@ input:focus,
         backdrop-filter: blur(10px);
         background-color: rgba(49, 49, 50, .95);
     }
+}
+
+.bg-black {
+    background-color: #000000 !important;
+}
+
+.bg-dark {
+    background-color: #1A1A1A !important;
 }
 
 .bg-gray {
@@ -813,12 +817,12 @@ a.text-blue:hover {
 
 .text-gradient-gray {
     /* Fallback: Set a background color. */
-    background: rgb(238,238,238);
+    background: rgb(238, 238, 238);
 
     /* Create the gradient. */
-    background: -moz-radial-gradient(circle, rgba(238,238,238,1) 0%, rgba(128,128,128,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(238,238,238,1) 0%, rgba(128,128,128,1) 100%);
-    background: radial-gradient(circle, rgba(238,238,238,1) 0%, rgba(128,128,128,1) 100%);
+    background: -moz-radial-gradient(circle, rgba(238, 238, 238, 1) 0%, rgba(128, 128, 128, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238, 238, 238, 1) 0%, rgba(128, 128, 128, 1) 100%);
+    background: radial-gradient(circle, rgba(238, 238, 238, 1) 0%, rgba(128, 128, 128, 1) 100%);
 
     /* Set the background size and repeat properties. */
     background-size: 100%;
@@ -1161,8 +1165,60 @@ a.text-blue:hover {
 }
 
 
-/******************** add fade to bottom of image ********************/
+/******************** Add fade to bottom of image ********************/
 .fade-bottom-img {
-    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+
+/******************** Add mask to image ********************/
+.clip-mask-1 {
+    -webkit-mask-image: url(../../img/covers/clip1.svg);
+    -moz-mask-image: url(../../img/covers/clip1.svg);
+    -ms-mask-image: url(../../img/covers/clip1.svg);
+    -o-mask-image: url(../../img/covers/clip1.svg);
+    mask-image: url(../../img/covers/clip1.svg);
+    -webkit-mask-mode: alpha;
+    -moz-mask-mode: alpha;
+    -ms-mask-mode: alpha;
+    -o-mask-mode: alpha;
+    mask-mode: alpha;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    -moz-mask-size: 100%;
+    -ms-mask-size: 100%;
+    -o-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-position: center;
+    -moz-mask-position: center;
+    -ms-mask-position: center;
+    -o-mask-position: center;
+    mask-position: center;
+}
+
+.clip-mask-2 {
+    -webkit-mask-image: url(../../img/covers/clip2.svg);
+    -moz-mask-image: url(../../img/covers/clip2.svg);
+    -ms-mask-image: url(../../img/covers/clip2.svg);
+    -o-mask-image: url(../../img/covers/clip2.svg);
+    mask-image: url(../../img/covers/clip2.svg);
+    -webkit-mask-mode: alpha;
+    -moz-mask-mode: alpha;
+    -ms-mask-mode: alpha;
+    -o-mask-mode: alpha;
+    mask-mode: alpha;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    -moz-mask-size: 100%;
+    -ms-mask-size: 100%;
+    -o-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-position: center;
+    -moz-mask-position: center;
+    -ms-mask-position: center;
+    -o-mask-position: center;
+    mask-position: center;
 }

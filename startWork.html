@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- ==================== Basic Page Needs ==================== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- ==================== Specific Meta ==================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="کلمات کلیدی و اصلی که در سایت استفاده می شود مانند (ساخت اسختر و باغچه و ...) که با استفاده از (,) باید از یک دیگر جدا شوند">
+    <meta name="author" content="رویان فناوران پژواک سیستم">
+    <meta name="copyright" content="2021">
+    <meta name="document-type" content="Public">
+    <meta name="document-rating" content="General">
+    <meta name="resource-type" content="document">
+    <meta name="theme-color" content="#63C2F5">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="msapplication-navbutton-color" content="#545454">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta property="business:contact_data:street_address" content="آدرس داخل شهری شرکت">
+    <meta property="business:contact_data:locality" content="شهر">
+    <meta property="business:contact_data:country_name" content="ایران">
+    <meta property="business:contact_data:phone_number" content="09123456789">
+    <meta property="business:contact_data:email" content="email[at]example.com">
+    <meta name="geo.placename" content="شرکت صنعتی آریامین">
+    <meta name="revisit-after" content="7 days">
+    <meta name="description" content="توضیحاتی در مورد سایت و شرکت مورد نظر و این صفحه"> <!-- Can be changed -->
+
+    <!-- ==================== The twitter cart Meta ==================== -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="sitedomain.com">
+    <meta name="twitter:site" content="@AryaMin">
+    <meta name="twitter:creator" content="@AryaMin">
+    <meta property="twitter:title" content="ساخت انواع استخر و باغچه صنعتی شرکت آریامین"> <!-- Can be changed -->
+    <meta property="twitter:description" content="توضیحاتی در مورد سایت و شرکت مورد نظر و این صفحه">
+    <!-- Can be changed -->
+
+    <!-- ==================== The Open Graph protocol ==================== -->
+    <meta property="og:locale" content="fa-IR">
+    <meta property="og:locale:alternate" content="fa-IR">
+    <meta property="og:site_name" content="AiraMin | آریامین">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="72">
+    <meta property="og:image:height" content="72">
+    <meta property="og:url" content="sitedomain.com"> <!-- Can be changed -->
+    <meta property="og:title" content="سر صفحه مربوط به هر صفحه"> <!-- Can be changed -->
+    <meta property="og:type" content="کار هایی که این شرکت انجام میدهد"> <!-- Can be changed -->
+    <meta property="og:description" content="توضیحاتی در مورد سایت و شرکت مورد نظر و این صفحه"> <!-- Can be changed -->
+    <meta property="og:image" content="./assets/img/logo/logo.png"> <!-- Can be changed -->
+    <meta property="og:image:secure_url" content="./assets/img/logo/logo.png"> <!-- Can be changed -->
+    <meta property="og:image:alt" content="یک توضیح کوتاه در مورد عملکرد سایت"> <!-- Can be changed -->
+
+    <!-- ==================== Titles ==================== -->
+    <title>AryaMin Start Work</title> <!-- Can be changed -->
+
+    <!-- ==================== Favicons ==================== -->
+    <link rel="shortcut icon" href="./assets/img/logo/logo.png" type="image/x-icon">
+
+    <!-- ==================== Style CSS ==================== -->
+    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/swiper/swiper-bundle.min.css"> <!-- Swiper CSS -->
+    <link rel="stylesheet" href="./assets/css/aos/aos.css"> <!-- AOS js -->
+    <link rel="stylesheet" href="./assets/css/custom/fonts.css"> <!-- Custom Font CSS -->
+    <link rel="stylesheet" href="./assets/css/custom/style.css"> <!-- Custom style CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"> <!-- FontAwesome CSS -->
+
+</head>
+
+<body onload="loader()">
+
+    <!-- ==================== Start Preloader Page ==================== -->
+    <div id="preloader">
+        <div class="animation">
+            <img src="./assets/img/svg/loader.svg" alt="loader image">
+        </div>
+    </div>
+    <!-- ==================== End Preloader Page ==================== -->
+
+    <!-- ==================== Start Header and mobile menu ==================== -->
+    <header class="bg-header fixed-top">
+        <nav class="navbar navbar-expand-md container py-0">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="#"><img class="img-fluid" width="40" src="./assets/img/logo/logo.png" alt="logo"></a>
+
+            <!-- Start Icon bars for menu button -->
+            <a class="navbar-toggler border-0 p-0" href="javascript:void(0)" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false">
+                <div id="Menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+            <!-- End Icon bars for menu button -->
+
+            <!-- Start header and mobile menu content -->
+            <!-- This section for all menu content in mobile, tablet and desktop -->
+            <div class="collapse navbar-collapse" id="navMenu">
+
+                <!-- This is just a separator -->
+                <div class="d-md-none" style="width: 100%; height: 1px; background-color: #555555; margin-top: 5px; margin-bottom: 5px;"></div>
+
+                <!-- Start Main link -->
+                <div class="navbar-nav justify-content-md-center mx-md-auto">
+                    <a class="nav-link py-md-3" href="#">Home</a>
+                    <a class="nav-link py-md-3" href="#">About Us</a>
+                    <a class="nav-link py-md-3" href="#">Projects</a>
+                    <a class="nav-link py-md-3" href="#">Companies</a>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle nav-link py-md-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">All</a>
+                            <a class="dropdown-item" href="#">Newest</a>
+                            <a class="dropdown-item" href="#">Most visited</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Latest news</a>
+                        </div>
+                    </div>
+                    <a class="nav-link py-md-3" href="#">Contact Us</a>
+                </div>
+                <!-- End Main link -->
+
+                <!-- This is just a separator -->
+                <div class="d-md-none" style="width: 100%; height: 1px; background-color: #555555; margin-top: 5px; margin-bottom: 5px;"></div>
+
+                <!-- Animated button for start working with us -->
+                <a class="btn bg-gray text-ld my-2 start-button d-block" href="#">Start Work</a>
+            </div>
+            <!-- End header and mobile menu content  -->
+        </nav>
+    </header>
+    <!-- ==================== End Header and mobile menu ==================== -->
+
+    <!-- ==================== Start Main section ==================== -->
+    <section class="wrapper">
+
+        <!-- Start Title for page -->
+        <div class="container text-center mt-5">
+            <h2 class="text-size-26 text-extrablack text-dark">Start Work</h2>
+            <p class="text-size-16 text-regular text-dark my-4">Start a great collaboration</p>
+            <hr>
+        </div>
+        <!-- End Title for page -->
+
+        <!-- Start breadcrumb navbar -->
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-white rounded">
+                    <li class="breadcrumb-item"><a class="text-blue" href="#">Home</a></li>
+                    <li class="breadcrumb-item text-gray active" aria-current="page">Start Work</li>
+                </ol>
+            </nav>
+        </div>
+        <!-- End breadcrumb navbar -->
+
+        <!-- Start content -->
+        <div class="container mt-5">
+            <form class="w-100">
+                <div class="row p-0">
+
+                    <!-- Start Inputs -->
+                    <div class="col-lg-8 col-md-6">
+
+                        <div class="row p-0">
+
+                            <div class="col-lg-6">
+                                <div class="form-group mb-4">
+                                    <label for="Email">Email</label>
+                                    <input type="email" class="form-control" id="Email" name="Email" placeholder="name@example.com">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="form-group mb-4">
+                                    <label for="Phone">Phone</label>
+                                    <input type="number" class="form-control" id="Phone" name="Phone" placeholder="09*********">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row p-0">
+
+                            <div class="col-lg-6">
+                                <div class="form-group mb-4">
+                                    <label for="Name">Name</label>
+                                    <input type="text" class="form-control" id="Name" name="Name" placeholder="Mohammad Zamani">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="form-group mb-4">
+                                    <label for="Subject">Subject</label>
+                                    <input type="text" class="form-control" id="Subject" name="Subject" placeholder="Example: Project request">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="form-group mb-4">
+                            <label for="Description">Message</label>
+                            <textarea class="form-control" id="Description" name="Description" rows="5" placeholder="Optional description"></textarea>
+                        </div>
+                    </div>
+                    <!-- End Inputs -->
+
+                    <!-- Start Image uploader -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="avatar-upload">
+                            <div class="avatar-edit">
+                                <input type='file' id="imageUpload" name="imageUpload" accept=".png, .jpg, .jpeg" />
+                                <label for="imageUpload"></label>
+                            </div>
+                            <div class="avatar-preview">
+                                <div id="imagePreview" style="background-image: url(https://axiomoptics.com/wp-content/uploads/2019/08/placeholder-images-image_large.png);">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Image uploader -->
+
+                    <!-- Start Submit button -->
+                    <div class="col-12 my-4 mt-md-0">
+                        <button class="btn btn-blue px-5" type="submit">Submit</button>
+                    </div>
+                    <!-- End Submit button -->
+
+                </div>
+            </form>
+        </div>
+        <!-- End content -->
+
+    </section>
+    <!-- ==================== End Main section ==================== -->
+
+    <!-- ==================== Start Footer ========== This Footer is for all pages ==================== -->
+    <footer class="bg-footer mt-5 bg-white">
+        <div class="container pt-4 pb-3">
+
+            <!-- Start Contact with us -->
+            <div class="text-center py-4">
+                <p class="text-size-40 text-extrabold text-dark m-0">Contact with us</p>
+                <div class="nav justify-content-center mt-3">
+                    <a class="mx-3 text-size-32 text-dark" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="mx-3 text-size-32 text-dark" href="#"><i class="fab fa-telegram-plane"></i></a>
+                    <a class="mx-3 text-size-32 text-dark" href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <!-- End Contact with us -->
+
+            <hr>
+
+            <!-- Start Footer Nav links -->
+            <div class="footer-nav row my-4">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h4 class="text-size-22 text-bold text-dark">quick access</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h4 class="text-size-22 text-bold text-dark">Support</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ticket</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h4 class="text-size-22 text-bold text-dark">Our services</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pool</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Garden</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Industrial facilities</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h4 class="text-size-22 text-bold text-dark">Communication Ways</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:email@example.com">email@example.com</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link phone-number" href="tel:+989123456789">+98 912 3456 789</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end Footer Nav links -->
+
+            <hr>
+
+            <!-- Start footer bottom -->
+            <div class="footer-bottom">
+                <p class="text-center m-0">This site has the copyright and all rights reserved for this site.</p>
+            </div>
+            <!-- End footer bottom -->
+
+        </div>
+    </footer>
+    <!-- ==================== End Footer ==================== -->
+
+    <!-- ==================== Start Scroll to top ==================== -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- ==================== End Scroll to top ==================== -->
+
+    <!-- ==================== All The JS Files ==================== -->
+    <script src="./assets/js/jquery/jquery-3.5.1.min.js"></script> <!-- jQuery js -->
+    <script src="./assets/js/bootstrap/bootstrap.bundle.min.js"></script> <!-- Bootstap js -->
+    <script src="./assets/js/swiper/swiper-bundle.min.js"></script> <!-- Swiper js -->
+    <script src="./assets/js/aos/aos.js"></script> <!-- AOS js -->
+    <script src="./assets/js/custom/script.js"></script> <!-- Custom script js -->
+    <script src="./assets/js/custom/customSwiper.js"></script> <!-- Custom Swiper slides js -->
+
+    <!-- ==================== inline Script ==================== -->
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    $('#imagePreview').css('background-image', 'url('+e.target.result +')');
+                    $('#imagePreview').hide();
+                    $('#imagePreview').fadeIn(650);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        $("#imageUpload").change(function() {
+            readURL(this);
+        });
+    </script>
+
+</body>
+
+</html>
